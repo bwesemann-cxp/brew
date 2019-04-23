@@ -299,6 +299,7 @@ case "$HOMEBREW_COMMAND" in
   homepage)    HOMEBREW_COMMAND="home" ;;
   -S)          HOMEBREW_COMMAND="search" ;;
   up)          HOMEBREW_COMMAND="update" ;;
+  udpate)      HOMEBREW_COMMAND="update" ;;
   ln)          HOMEBREW_COMMAND="link" ;;
   instal)      HOMEBREW_COMMAND="install" ;; # gem does the same
   uninstal)    HOMEBREW_COMMAND="uninstall" ;;
